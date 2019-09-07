@@ -2,7 +2,7 @@
 * @Author: qing
 * @Date:   2019-08-26 10:03:31
 * @Last Modified by:   qing
-* @Last Modified time: 2019-08-26 17:29:14
+* @Last Modified time: 2019-09-04 14:45:01
 */
 body{
 	font-size: 14px;
@@ -10,6 +10,14 @@ body{
 	min-width: 1200px;
 	/* width: 100vw; */
 }
+.boths::after{
+	content: '';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
 a:link,
 a:hover,
 a:active,
@@ -501,13 +509,15 @@ i,em{
 }
 .footer{
 	width: 100%;
-	background-color: #151515;
+	background-color: #191919;
 	color: #888;
 	overflow: hidden;
+	padding-bottom: 8px;
 }
 .footer .f-center{
 	width: 1196px;
 	margin: auto;
+	background-color: #151515;
 }
 .footer .f-center .ft-top{
 	padding-top: 28px;
@@ -566,10 +576,9 @@ i,em{
 .footer .ft-bottom{
 	border-top: solid 1px #373737;
     line-height: 21px;
-    padding-top: 7px;
-    margin: 7px auto 25px;
-    padding-bottom: 7px;
-    height: 30px;
+    padding: 7px 0px 25px 0px;
+    margin: 7px auto 0px;
+    height: 60px;
     text-align: center;
     color: #888;
     font-size: 12px;
@@ -733,4 +742,5 @@ i,em{
 	background-size: 15px;
     background-repeat: no-repeat;
     background-position: 8px 10px;
+    cursor: pointer;
 }

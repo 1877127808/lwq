@@ -2,7 +2,7 @@
 * @Author: qing
 * @Date:   2019-08-19 22:39:01
 * @Last Modified by:   qing
-* @Last Modified time: 2019-08-26 14:21:35
+* @Last Modified time: 2019-09-04 14:48:19
 */
 /* banner */
 .banner{
@@ -560,4 +560,7 @@
 	border-radius: 5px;
 	background-color: #ed1c24;
 	color: #fff;
+}
+.footer{
+	background-color: #151515;
 }

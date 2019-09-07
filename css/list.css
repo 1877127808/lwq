@@ -2,7 +2,7 @@
 * @Author: qing
 * @Date:   2019-08-26 14:27:11
 * @Last Modified by:   qing
-* @Last Modified time: 2019-08-26 21:40:41
+* @Last Modified time: 2019-08-28 14:46:45
 */
 .header-navbar{
 	height: 42px;
@@ -169,6 +169,13 @@
 	background-color: #c6c6c6;
 	z-index: 1;
 }
+.section .sc-bottom .cb-list3{
+	background: url("../images/jiantou.jpg");
+	background-position: 63px -146px;
+	background-size: 11px;
+	padding-right: 19px;
+	background-repeat: no-repeat;
+}
 .section .sc-bottom .cb-list5{
 	float: right;
 	margin-right: 15px;
@@ -186,3 +193,189 @@
 	width: 100%;
 	height: 100%;
 }
+.tabulation{
+	width: 100%;
+	overflow: hidden;
+	background-color: #f5f5f5;
+}
+.tabulation .t-center{
+	width: 1196px;
+	margin: 20px auto;
+}
+.tabulation .t-center li{
+	width: 230px;
+	height: 408px;
+	padding-top: 36px;
+	background-color: #fff;
+	position: relative;
+	border: 1px solid;
+	border-color: transparent;
+	float: left;
+	margin: 0px 5px 10px 4px;
+}
+.tabulation .t-center li:hover{
+	border-color: red;
+}
+.tabulation .delta{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.tabulation li:nth-child(1) .delta>em{
+	width: 59px;
+	height: 27px;
+	padding: 7px 0px 2px;
+	display: block;
+	background-color: #a94af4;
+	color: #FFF;
+	text-align: center;
+	font-size: 12px;
+}
+.tabulation li:nth-child(1) .delta>i{
+	width: 58px;
+	display: block;
+	border-top: 10px solid #a94af4;
+    border-left: 29px solid transparent;
+    border-right: 29px solid transparent;
+}
+.tabulation .t-center .img{
+	width: 228px;
+	height: 180px;
+	display: block;
+}
+.t-center .img img{
+	width: 180px;
+	height: 180px;
+	margin: auto;
+	display: block;
+}
+.tabulation .t-center
+.small, 
+.H5,
+.price,
+.grade{
+	width: 228px;
+	padding: 0px 20px;
+}
+.tabulation .t-center .small{
+	height: 34px;
+	display: block;
+	margin-bottom: 15px;
+}
+.tabulation .small a{
+	width: 34px;
+	height: 34px;
+	padding: 3px;
+	border: 1px solid red;
+	display: none;
+}
+.tabulation li:nth-child(14) .small a{
+	display: block;
+}
+.tabulation li:nth-child(25) .small a{
+	display: block;
+}
+.small a img{
+	width: 100%;
+	width: 100%;
+}
+.tabulation .t-center .H5{
+	margin: 0px;
+	height: 36px;
+	font-size: 12px;
+}
+.tabulation .H-txt{
+	width: 210px;
+	padding: 8px;
+	background-color: rgba(0,0,0,0.8);
+	display: block;
+	color: #fff;
+	position: absolute;
+	top: 217px;
+	left: 9px;
+	line-height: 20px;
+	display: none;
+}
+.tabulation .H-i{
+	height: 12px;
+	border-width: 6px;
+	border-style: solid;
+    border-color: #333 transparent transparent transparent;
+	position: absolute;
+	top: 253px;
+	left: 20px;
+	display: none;
+}
+.tabulation .H5 a:hover .H-i,.H5 a:hover .H-txt{
+	display: block;
+}
+.tabulation .t-center .price{
+	height: 24px;
+	margin: 0px;
+	line-height: 24px;
+	color: #c80000;
+}
+.tabulation .t-center .grade{
+	height: 18px;
+}
+.tabulation .grade i{
+	width: 11px;
+	height: 11px;
+	margin-right: 2px;
+	display: inline-block;
+	background: url("../images/xingxing.jpg");
+	background-size: auto 22px;
+	background-position: -1px -10px;
+	background-repeat: no-repeat;
+}
+.tabulation .tiny .yellow{
+	background-position: -1px 2px;
+}
+.tabulation .grade a{
+	float: right;
+	font-size: 12px;
+	color: #666;
+}
+.tabulation .td-btn{
+	width: 100%;
+}
+.tabulation .td-btn{
+	width: 228px;
+	height: 39px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	border-top: 1px solid #eee;
+	line-height: 39px;
+	text-align: center;
+	color: #c80000;
+	padding: 0px 1px;
+}
+.tabulation .lI:hover .td-btn{
+	background-color: #c80000;
+	color: #fff;
+}
+.tabulation .tc-buttom{
+	width: 100%;
+	height: 63px;
+	float: left;
+	margin: 10px 15px 80px 0px;
+}
+.tabulation .tc-buttom .tc-box{
+	float: right;
+	margin-right: 15px;
+}
+.tabulation .tc-buttom .tc-left,.tc-right2{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+.tabulation .tc-buttom
+ .tc-left img,
+ .tc-right2 img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .tabulation .tc-buttom i{
+ 	margin: 0px 25px;
+ }

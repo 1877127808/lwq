@@ -1,0 +1,177 @@
+/*
+* @Author: qing
+* @Date:   2019-09-04 11:08:22
+* @Last Modified by:   qing
+* @Last Modified time: 2019-09-04 14:30:52
+*/
+.header-navbar{
+	height: 42px;
+    border-bottom: 2px solid #011912;
+}
+.header-navbar>ul{
+	width: 1196px;
+	height: 40px;
+	margin: auto;
+}
+.header-navbar>ul>li{
+	float: left;
+	height: 40px;
+	font-size: 16px;
+	margin-right: 24px;
+	line-height: 40px;
+}
+.header-navbar .icon-btn{
+	width: 196px;
+	background-color: #011912;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+.header-navbar .icon-btn>span{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+	top: 5px;
+} 
+.icon-btn>span>i{
+	width: 12px;
+	height: 2px;
+	background-color: #fff;
+	display: inline-block;
+	position: absolute;
+}
+.header-navbar .icon-btn i:nth-child(1){
+	top: 2px;
+}
+.header-navbar .icon-btn i:nth-child(2){
+	top: 6px;
+}
+.header-navbar .icon-btn i:nth-child(3){
+	top: 10px;
+}
+.header-navbar .bar-img{
+	float: right;
+	margin: 0px;
+}
+.header-navbar .bar-img i{
+	width: 18px;
+	height: 20px;
+	display: inline-block;
+	background: url("../images/kefu.png");
+	background-size: 18px 20px;
+	margin: 8px 5px 0px 0px;
+	float: left;
+}
+.bar-img a:hover i{
+	background: url("../images/kefu2.png");
+	background-size: 18px 20px;
+}
+.aside{
+	top: 192px;
+	left: 161.5px;
+	display: none;
+	text-align: left;
+	color: #333;
+	line-height: 20px;
+	z-index: 999;
+}
+.subnav{
+	width: 100%;
+	height: 44px;
+	background-color: #fff;
+}
+.subnav .s-center{
+	width: 1196px;
+	height: 100%;
+	margin: auto;
+	color: #333;
+	padding: 0px 5px;
+}
+.subnav .s-center ul{
+	margin: 0px;
+}
+.subnav .s-center ul>li{
+	line-height: 44px;
+	float: left;
+}
+.subnav .s-center ul>li:nth-child(1){
+	font-weight: bold;
+}
+.subnav .s-center ul span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: url("../images/right2.png") no-repeat;
+	background-position: 3px;
+	background-size: 13px auto;
+	margin: 12px 0px;
+}
+.section{
+	width: 100%;
+}
+.section .s-container{
+	width: 1200px;
+	margin: 0px auto 30px auto;
+	overflow: hidden;
+}
+.section .s-container .sc-left{
+	width: 180px;
+	padding: 0px 0px 20px 20px;
+	float: left;
+	background: url("../images/ownbg.jpg") 100%;
+}
+.section .sc-left .dl{
+	margin: 0px;
+}
+.section .sc-left .dl>dt{
+	padding: 20px 0px 10px 0px;
+	font-size: 18px;
+	font-weight: normal;
+}
+.section .sc-left .dl>dt:nth-child(1){
+	padding-top: 10px;
+}
+.section .sc-left .dl a{
+	width: 160px;
+	height: 42px;
+	display: block;
+	color: #888;
+	padding-left: 22px;
+	line-height: 42px;
+}
+.section .sc-left .dl a:hover{
+	color: #f01e00;
+}
+.section .sc-left .dl .scd-bor{
+	background: url("../images/45357169302449664.jpg");
+}
+.section .sc-left .dl .scd-bor:hover{
+	color: #888;
+}
+.section .sc-left .dtbg a{
+	height: 40px;
+	padding-left: 0px;
+	color: #333;
+	background: url("../images/bgx.jpg") no-repeat;
+	background-position: 30px 0px;
+}
+.section .sc-left .dtbg a:hover{
+	color: #2884c7;
+}
+.section .s-container .sc-right{
+	width: 990px;
+	margin-left: 30px;
+	float: left;
+}
+.section .sc-right .scr-box1{
+	height: 149px;
+	padding: 15px 0 60px 25px;
+}
+.section .sc-right .scr-box2{
+	height: 50px;
+	padding-bottom: 10px;
+	border-bottom: 1.5px solid #dfdfdf;
+}

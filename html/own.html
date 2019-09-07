@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>搜索全部结果 - 乐融商城</title>
+	<title>个人中心 - 乐融商城</title>
 	<link rel="shortcut icon" href="../images/favicon.ico">
 	<link rel="stylesheet" href="../css/cssreset.css">
 	<link rel="stylesheet" href="../css/bootstrap.css">
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="../css/public.css">
-	<link rel="stylesheet" href="../css/list.css">
+	<link rel="stylesheet" href="../css/own.css">
 </head>
 <body>
 	<!-- 头部 -->
@@ -240,7 +240,7 @@
 										<li class="lt-one">
 											<strong>55时</strong>
 										</li>
-										<li>
+										<li> 
 											<a href="#"><img src="../images/Y55C.jpg" alt=""></a>
 											<a href="#"><strong>Y55C</strong></a>
 										</li>
@@ -566,74 +566,44 @@
 		</div>
 	</header>
 	<!-- 头部完 -->
-	<!-- 子导航、分类、综合 -->
+	<!-- 子导航栏 -->
+	<nav class="subnav">
+		<div class="s-center">
+			<ul>
+				<li><a href="#">首页</a></li><span class="s-after"></span>
+				<li><a href="#">个人中心</a></li>
+		</div>
+	</nav>
+	<!-- 子导航完 -->
+	<!-- 内容 -->
 	<section class="section">
-		<div class="s-top">
-			<div class="s-content">
-				<ul class="sc-subnav">
-					<li>
-						首页
-						<span></span>
-					</li>
-					<li>
-						搜索全部结果
-						<span></span>
-					</li>
-					<li>漫威</li>
-				</ul>
-				<ul class="sc-center">
-					<li>分类</li>
-					<li><a href="#">超级电视</a></li>
-					<li><a href="#">第5代超级电视</a></li>
-				</ul>
-				<ul class="sc-bottom">
-					<li class="cb-list1"><a href="#" class="red colo">综合</a></li>
-					<li class="cb-list2"><a href="#" class="colo">最新</a></li>
-					<li class="cb-list3"><a href="#" class="colo">价格</a></li>
-					<li class="cb-list4"><a href="#" class="colo">评论数</a></li>
-					<li class="cb-list5"><span>为您搜索到30个商品</span>&nbsp;&nbsp;&nbsp;&nbsp;<span><i>1</i>/2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><em class="sc-left"><img src="../images/left.png" alt=""></em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em class="sc-right"><img src="../images/right2.png" alt=""></em></span></li>
-				</ul>
+		<div class="s-container">
+			<div class="sc-left">
+				<dl class="dl">
+					<dt>交易管理</dt>
+					<dd><a href="#">我的订单</a></dd>
+					<dt>客户服务</dt>
+					<dd><a href="#">退货/换货/维修</a></dd>
+					<dd><a href="#">取消退款查询</a></dd>
+					<dd><a href="#">安装/维修</a></dd>
+					<dt>账户信息</dt>
+					<dd><a href="#" class="scd-bor">个人中心</a></dd>
+					<dd><a href="#">个人信息</a></dd>
+					<dd><a href="#">收货地址</a></dd>
+					<dd><a href="#">我的优惠券</a></dd>
+					<dd><a href="#">我的乐豆</a></dd>
+					<dt>个人应用管理</dt>
+					<dd><a href="#">商品评价/晒单</a></dd>
+					<dt class="dtbg"><a href="#">分享邀请赢大奖</a></dt>
+				</dl>
+			</div>
+			<div class="sc-right">
+				<div class="scr-box1"></div>
+				<div class="scr-box2"></div>
 			</div>
 		</div>
 	</section>
-	<!-- 子导航、分类、综合完 -->
-	<!-- 产品列表 -->
-	<section class="tabulation">
-		<div class="t-center">
-			<ul id="ul">
-				<li class="lI">
-					<div class="delta">
-						<em>热卖</em>
-						<i></i>
-					</div>
-					<div class="img"><a href="X40L.html"><img src="../images/1557216397551.jpg" alt=""></a></div>
-					<span class="small"><a href="#"></a></span>
-					<h5 class="H5"><a href="X40L.html">超5&nbsp;X55漫威版
-					</a></h5>
-					<p class="price">&yen;3699.00</p>
-					<div class="grade">
-						<span class="tiny">
-							<i></i>
-							<i></i>
-							<i></i>
-							<i></i>
-							<i></i>
-						</span>
-						<a href="#">暂无评价</a>
-					</div>
-					<a href="X40L.html" class="td-btn">立即购买</a>
-				</li>
-			</ul>
-			<div class="tc-buttom">
-				<div class="tc-box">
-					<span class="tc-left"><img src="../images/left.png" alt=""></span>
-					<i>1</i>
-					<span class="tc-right2"><img src="../images/right2.png" alt=""></span>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- 产品列表完 -->
+	<!-- 内容完 -->
 	<!-- section底部 -->
 	<section class="buttom">
 		<ul>
@@ -740,6 +710,24 @@
 	<!-- 返回顶部按钮完 -->
 	<script src="../js/jquery-1.11.1.js"></script>
 	<script src="../js/public.js"></script>
-	<script src="../js/list.js"></script>
+	<script>
+		function fx(a) {
+			return document.getElementById(a);
+		};
+
+		function fn(b) {
+			return document.getElementsByClassName(b);
+		};
+
+		//隐藏菜单
+
+		fx("barBtn").onmouseover = function() {
+			fx("barNav").style.display = "block";
+		};
+		fx("barBtn").onmouseout = function() {
+			fx("barNav").style.display = "none";
+		};
+
+	</script>
 </body>
 </html>
