@@ -1,9 +1,4 @@
-/*
-* @Author: qing
-* @Date:   2019-08-26 10:03:31
-* @Last Modified by:   qing
-* @Last Modified time: 2019-09-04 14:45:01
-*/
+
 body{
 	font-size: 14px;
 	color: #333;
@@ -34,7 +29,6 @@ i,em{
 /* 头部 */
 .header{
 	width: 100%;
-	overflow: hidden;
 }
 /* 顶部导航 */
 .header .tops{
@@ -99,15 +93,13 @@ i,em{
 	border: 1px solid #ccc;
 	border-top: none;
 	background-color: #fff;
-	z-index: 99  ;
+	z-index: 999;
 }
 .header .t-right .ol1{
-	right: 313px;
-	top: 32px;
+	right: -1.5px;
 }
 .header .t-right .ol2{
-	right: 231px;
-	top: 32px;
+	right: -1.5px;
 }
 .header .t-right ol>li{
 	padding: 5px 0px 5px 0px;
@@ -115,8 +107,9 @@ i,em{
 .header .t-right .wei{
 	width: 286px;
 	top: 32px;
-	right: 161px;
+	right: -1px;
 	display: none;
+	z-index: ;
 	padding: 20px 10px 0px;
 }
 .header .wei li{
@@ -129,6 +122,7 @@ i,em{
 .header .t-right .list{
 	border: 1px solid #333;
 	border-bottom: none;
+	position: relative;
 }
 .header .t-right .list:hover{
 	background-color: #fff;
